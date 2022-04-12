@@ -339,7 +339,7 @@ function changeNavActives(navContainerParObj, idsOfElement, activeClassName) {
                         //console.log("Body Offset: " + document.body.offsetHeight + ", Body Top: " + document.body.getBoundingClientRect().top + ", Body Scroll Height: " + document.body.scrollHeight)
                         currSection = "section-footer"
                     } else {
-                        console.log("Height: " + navContainerHeight
+                        console.log("Height: " + navContainerHeight)
                         if ((currDivTop <= navContainerHeight) && (nextDivTop > 0)) {
                             currSection = idsOfElement[d]
                             console.log("Current Div Top ("+ idsOfElement[d] +"): " + currDivTop + ", <= Scroll: " + currScrollPosY + ", and Next Div Top: (" + idsOfElement[d+1] + ") " + nextDivTop + " > Scroll: " + currScrollPosY)
