@@ -1,3 +1,191 @@
-<html>
-<body>yay!!</body>
+<!doctype html>
+<!--Code Copyrights - Hitesh Gehani 2022 -->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Dhami Finances Pvt. Ltd.</title>
+        <meta name="description" content="A finance lending site">
+        <meta name="author" content="Dhami Finance Private Limited">
+        <meta property="og:title" content="Dhami Finance"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="https://www.imdb.com/title/tt0117500/" />
+        <meta property="og:image" content="https://ia.media-imdb.com/images/rock.jpg"/>
+        <link rel="icon" href="images/DF_ico.ico" type="image">
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="df-styles.css">
+        <link rel="stylesheet" href="df-styles-800.css">
+    </head>
+    <body>
+
+        <!--Mobile Specific-->
+        <div id="mobile-wip">
+            <div class="progressbar">
+                <svg class="progressbar-circle-container">
+                  <circle cx="80" cy="80" r="70" class="progressbar-circle shadow-progress-bar"> </circle>
+                </svg>
+                <span class="progressbar_text shadow-progress-bar">HI!!</span>
+            </div>
+            <div class="inconvenience-text">
+                <h3 class="gradient-text anime-span">We are coming soon on mobile.</h3>
+            </div>
+        </div>
+
+        <!--Section Header Nav-->
+        <div id="section-header" class="below-box-shadow">
+            <div id="hamby-tray-pull">
+                <i class="fa fa-bars"></i>
+            </div>
+            <div class="logo-container">
+                <a href="#home">
+                    <img src="images/logoDF.png" alt="Dhami Finance">
+                </a>
+            </div>
+            <div class="navContainer">
+                <button name="home" onclick="scrollingInPage('section-slideshow');" class="active-a gradient-obj nav-button-style-one">Home</button>
+                <button name="about" onclick="scrollingInPage('section-about');" class="nav-button-style-one">About</button>
+                <button name="product" onclick="scrollingInPage('section-products');" class="nav-button-style-one">Products</button>
+                <button name="contact" onclick="scrollingInPage('section-footer');" class="nav-button-style-one">Contact</button>
+            </div>
+        </div>
+
+        <!--Section Slideshow-->
+        <div id="section-slideshow" class="">
+            <div class="side-button-container">
+                <span class="fa fa-arrow-circle-right right-but"></span>
+                <span class="fa fa-arrow-circle-left left-but"></span>
+            </div>
+            <div id="slide-roller">
+                <div class="slides s-one">
+                    <div class="slides-bg"></div>
+                    <div class="details">
+                        <h1 class="gradient-text">We are number one</h1>
+                        <p id="showScroll">This is a tagline</p>
+                    </div>
+                </div>
+                <div class="slides s-two">
+                    <div class="slides-bg"></div>
+                    <div class="details">
+                        <h1 class="gradient-text">What are we?</h1>
+                        <p>This is a tagline</p>
+                    </div>
+                </div>
+                <div class="slides s-three">
+                    <div class="slides-bg"></div>
+                    <div class="details">
+                        <h1 class="gradient-text">Why select us?</h1>
+                        <p>This is a tagline</p>
+                    </div>
+                </div>
+                <div class="slides s-four">
+                    <div class="slides-bg"></div>
+                    <div class="details">
+                        <h1 class="gradient-text">Who are we?</h1>
+                        <p>This is a tagline</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Section About-->
+        <div id="section-about" class="divToShowHide below-box-shadow parallax-moving-cover">
+            <div class="heading-about anime-span text-beforeScroll">
+                <h2 class=""><b>Ab</b>out</h2>
+            </div>
+            <div class="about-container text-beforeScroll">
+                <p class="gradient-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a facilisis magna, et congue lorem. Donec malesuada leo ante, sed bibendum ligula facilisis id. In viverra lectus et efficitur condimentum. Proin urna orci, congue in fermentum ultricies, accumsan sit amet dolor. Nam nisi ante, luctus ut nunc at, tempus porttitor lectus. Curabitur sed lectus erat. Donec tempus dolor et nunc convallis, vel facilisis quam laoreet. Morbi efficitur cursus justo, id posuere felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a facilisis magna, et congue lorem. Donec malesuada leo ante, sed bibendum ligula facilisis id. In viverra lectus et efficitur condimentum. Proin urna orci, congue in fermentum ultricies, accumsan sit amet dolor. Nam nisi ante, luctus ut nunc at, tempus porttitor lectus. Curabitur sed lectus erat. Donec tempus dolor et nunc convallis, vel facilisis quam laoreet. Morbi efficitur cursus justo, id posuere felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a facilisis magna, et congue lorem.</p>
+            </div>
+        </div>
+
+        <!--Section Achievements-->
+        <div id="section-achievements" class="parallax-div">
+            <div class="parallax-container">
+                <div class="flip-card-container">
+                    <div class="flip-card">
+                        <div class="front-part parallax-moving-cover">
+                            <div class="content-front">
+                                <h2 class="gradient-text">Achievements</h2>
+                            </div>
+                        </div>
+                        <div class="back-part">
+                            <div class="content-back">
+                                <p style="text-align: justify; color: rgba(200, 220, 250, 0.95);">Integer suscipit ex ut dolor eleifend egestas. Aliquam ac sem sit amet ligula finibus ultricies sit amet nec libero. Suspendisse placerat mi a tellus mollis, non sodales augue tristique. Morbi luctus orci diam, sed dignissim turpis viverra nec. Cras sollicitudin eu nulla at commo<p style="text-align: justify; color: rgba(230, 128, 26, 0.75);">cenas justo nisi, eleifend ac risus ut, scelerisque porta odio. Morbi fermentum massa ut ipsum blandit, eget congue magna dictum. Nam mauris purus, elementum molestie viverra et, euismod et lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut condimentum efficitur elit, id mattis magna ullamcorper ut. Morbi consequat enim sit amet velit venenatis, a eleifend arcu consequat.</p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Section Achievements-->
+        <div id="section-products" class="above-box-shadow parallax-moving-cover">
+            <div class="products-head">
+                <div class="products-head-container anime-span">
+                    <h2 class="gradient-text">Products</h2>
+                </div>
+            </div>
+            <div class="bubble-pop-container">
+                <div class="bubble-pop prod-one">
+                    <h4>Product1</h4>
+                </div>
+                <div class="bubble-pop prod-two">
+                    <h4>Product2</h4>
+                </div>
+                <div class="bubble-pop prod-three">
+                    <h4>Product3</h4>
+                </div>
+                <div class="bubble-pop prod-four">
+                    <h4>Product4</h4>
+                </div>
+                <div class="bubble-pop prod-five">
+                    <h4>Product5</h4>
+                </div>
+            </div>
+        </div>
+
+        <!--Section Products-->
+        <div id="section-footer">
+            <div class="foot-container">
+                <div class="foot-above">
+                    <div class="foot-section-one">
+                        <div class="map-box-container">
+                            <div id="g-map" class="map-box">
+                            
+                            </div>    
+                        </div>
+                    </div>
+                    <div class="foot-section-two">
+                        <div class="contacts-container">
+                            <div id="foot-email-id">
+                                <h6><i class="fa fa-envelope" style="font-size: 140%; color: aliceblue;"></i> : abcswiwu@gmaxil.com</h5>
+                            </div>
+                            <div id="foot-contact">
+                                <h6><i class="fa fa-headphones" style="font-size: 140%; color: aliceblue;"></i> : +91 9833928392 | +91 9233942942 | +91 9233942942</h5>
+                            </div>
+                            <div id="foot-form">
+                                <form action="submit">
+                                    <input type="text" id="visitor-name">
+                                    <input type="text" id="visitor-contact">
+                                    <button class="gradient-obj">Submit</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="foot-below">
+                    <div class="copy-text-container">
+                        <div>
+                            <p>&copy; Company Name | All Rights Reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&v=weekly" async></script>-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.2/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.2/CSSRulePlugin.min.js"></script>
+        <script src="df-javasscr.js"></script>
+    </body>
 </html>
